@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  color: white;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.headersecrtion {
+  background: rgb(122, 49, 153);
+  background: linear-gradient(157deg, rgba(122, 49, 153, 1) 1%, rgba(254, 254, 254, 1) 56%);
+}
+
+.signupbtn {
+  width: 40%;
+  border-radius: 5px;
+  background: var(--danger, linear-gradient(90deg, #4776E6 0%, #8E54E9 100%));
+}
+
+.bannersection {
+  background: rgb(114, 28, 136);
+  background: linear-gradient(135deg, rgba(114, 28, 136, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.footersection {
+  height: 500px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(171deg, rgba(255, 255, 255, 1) 50%, rgba(122, 49, 153, 1) 50%);
+}
+
+.list-item {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--secondary, #7A3199);
+}
+
+.bannerdot ul {
+  list-style: none;
+}
+
+.bannerdot ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+.bannerone{
+  position: absolute;
+  top: 240px;
+  right: 390px;
+}
