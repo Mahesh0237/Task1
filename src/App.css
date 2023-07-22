@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionone .mantine-Paper-root .mantine-1h0npq1 {
+  border-bottom: 0;
+}
+
+.sectionone .mantine-Paper-root .mantine-hp9ccp:hover {
+  background-color: rgb(233 236 231 / 67%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.test{
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #274f2c;
+}
+.sidenav{
+  border: 2px solid rgb(45, 45, 45);
+  padding: 2px 5px;
+}
+.sidenav:hover{
+  background-color: #274f2c;
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
